@@ -1,0 +1,23 @@
+.field {
+    margin-bottom: 1rem;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+.card{
+    
+    width: 100%;
+}
+.horizontal-grid-form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns per row */
+    gap: 1rem; /* Spacing between items */
+    margin-top: 1rem;
+    width: 100%;
+    padding: 30px;
+}

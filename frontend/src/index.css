@@ -1,0 +1,78 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Parent container */
+.app {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+/* Menubar styles */
+.menu-bar {
+  background-color: #333; /* Change as needed */
+  color: white;
+  padding: 10px;
+  position: sticky; /* Makes it stay at the top when scrolling */
+  top: 0;
+  z-index: 1000; /* Ensures it's above the body content */
+}
+
+/* Body styles */
+.body {
+  display: flex;
+  flex: 1; /* Fills the remaining space below the menubar */
+  padding: 20px;
+  overflow-y: auto; /* Scrolls the body content if it overflows */
+  background-color: #dde4e7; /* Change as needed */
+  margin-top: 10px;
+}
+
+
+.body1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #304213;
+  height: 200px;
+  margin: 20px;
+}
+
+.body2{
+  width: 100%;
+  background-color: #c71b1b;
+  height: 200px;
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.body3{
+  width: 100%;
+  background-color: #42133c;
+  height: 200px;
+  margin: 20px;
+}
+/* 
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+ */
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
